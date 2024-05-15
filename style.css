@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.main{
+    width: 100%;
+    height:200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.navbar{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(15, 16, 15);  
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    color: aliceblue;
+}
+.links i{
+    font-size: 50px;
+    padding: 10px 20px;
+}
+.links a{
+    text-decoration: none;
+    border: 2px solid #b2afaf;
+    white-space: nowrap;
+    border-radius: 10%;
+    padding: 5px 5px;
+    color: azure;
+}
+
+
+.image{
+    width: 95%;
+    height: 45%;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.follow{
+    width: 80%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.follow a{
+    background-color: rgb(220, 16, 9);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+}
+.follow h3{
+    background-color: rgb(5, 45, 223);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 5px 20px;
+}
+.Search{
+    width: 25%;
+    height: 60%;
+    background-color: rgb(212, 224, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search input[type='text']{
+    font-size: 15px;
+    padding: 5px 20px;
+}
+.others{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.upper{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rpf{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(8, 236, 84);
+}
+.ugc{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(15, 7, 234);
+}
+.stet{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(230, 147, 4);
+}
+.upsc{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(238, 6, 22);
+}
+.lower{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ssr{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(231, 69, 14);
+}
+.ug{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(227, 13, 162);
+}
+.agta{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(7, 132, 242);
+}
+.cbse{
+    width: 24%;
+    height: 95%;
+    background-color: rgb(1, 91, 29);
+}
+
+
+
+
